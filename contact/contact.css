@@ -1,0 +1,204 @@
+.mainContactSection {
+  max-width: 1236px;
+  padding: 32px 15px;
+  margin: 32px auto;
+}
+
+.wrapper {
+  margin-bottom: 120px;
+}
+
+.contactTitle {
+  font-size: 24px;
+}
+
+.contactInfo {
+  display: flex;
+  gap: 52px;
+  border-bottom: 1px solid rgb(224, 224, 224);
+  padding-bottom: 80px;
+}
+
+.contactAdd {
+  max-width: 584px;
+}
+
+.listItem {
+  margin-top: 48px;
+}
+
+.contactLinks {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+.socialTitle {
+  color: #8e9399;
+  margin-bottom: 16px;
+}
+
+.socialItem {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.socialItem > a {
+  display: inline;
+}
+
+.socialItem a:hover {
+  text-decoration: underline;
+}
+
+/* Contact Form styles  */
+
+.contactForm {
+  display: flex;
+  margin-top: 48px;
+}
+
+.contactLeft {
+  flex: 1;
+  margin-bottom: 26px;
+}
+
+.contactLeft > h1 {
+  font-size: 28px;
+  margin-bottom: 24px;
+}
+
+.contactLeft > p {
+  font-size: 18px;
+}
+
+.contactRight {
+  margin-left: 144px;
+  width: 600px;
+}
+
+.form {
+  display: flex;
+  gap: 16px;
+  flex-direction: column;
+}
+
+.formInput {
+  border: 1px solid transparent;
+  border-radius: 4px;
+  background-color: #f4f5f7;
+  padding: 16px;
+}
+
+textarea,
+input::placeholder {
+  font-size: 16px;
+  font-weight: 500;
+  color: rgb(119, 119, 119);
+}
+
+textarea {
+  resize: none;
+}
+
+.fileInputWrapper {
+  margin-top: 12px;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.input {
+  position: absolute;
+  opacity: 0;
+  z-index: 99;
+}
+
+.fileLabel {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  gap: 4px;
+  cursor: pointer;
+}
+
+.attachIcon {
+  transform: rotate(45deg);
+}
+
+.expansions {
+  color: #8e939a;
+}
+
+.terms {
+  display: flex;
+  gap: 12px;
+  margin-top: 12px;
+  align-items: start;
+}
+
+.terms > p {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.termsLink {
+  text-decoration: underline;
+}
+
+.contactButton {
+  display: inline-block;
+  max-width: 180px;
+  padding: 15px 20px;
+  border: 1px solid #ffde00;
+  border-radius: 24px;
+  background-color: #ffde00;
+  cursor: pointer;
+  font-weight: 500;
+  margin-top: 40px;
+  text-transform: uppercase;
+  transition: 0.3s ease-in-out;
+}
+
+.contactButton:hover {
+  box-shadow: 0px 0px 25px -4px rgba(255, 222, 0, 1);
+}
+
+/* Mobile Screen  */
+
+@media only screen and (max-width: 1280px) {
+ 
+  .contactTitle {
+    font-size: 18px;
+  }
+
+  .listItem {
+    margin-top: 40px;
+  }
+
+  .contactInfo {
+    display: block;
+  }
+
+  .location {
+    font-size: 12px;
+  }
+
+  .contactInfo {
+    padding-bottom: 40px;
+  }
+
+  .contactForm {
+    flex-direction: column;
+  }
+
+  .contactRight {
+    width: auto;
+    margin: 0 auto;
+  }
+}
