@@ -201,4 +201,8 @@ textarea {
     width: auto;
     margin: 0 auto;
   }
+
+  .wrapper {
+    margin-bottom: 60px;
+  }
 }

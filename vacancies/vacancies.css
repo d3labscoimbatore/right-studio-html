@@ -1,0 +1,15 @@
+.vacancies--title {
+  padding-bottom: 112px;
+  border-bottom: 1px solid rgb(224, 224, 224)  ;
+}
+
+.vacancies--title > h1 {
+  font-size: 48px;
+  margin-bottom: 24px;
+}
+
+.vacancies--title > p {
+    font-size: 20px;
+    font-weight: 500;
+    color: #888;
+}
